@@ -31,8 +31,8 @@ class House {
         $price = $this->calculatePrice();
 
         echo "Dit huis heeft {$this->floors} Verdiepingen, " .
-             count($this->rooms) . " kamers en heeft een volume van {$totalVolume} m3.\n";
-        echo "De prijs van het huis is {$price}.\n";
+             count($this->rooms) . " kamers en heeft een volume van {$totalVolume} m3.";
+        echo "De prijs van het huis is {$price}.";
     }
 }
 
